@@ -1,11 +1,17 @@
 <?php 
     
-    $host = '127.0.0.1';
+    /*$host = '127.0.0.1';
     $db = 'attendance_db';
     $user = 'root';
     $pass = '';
     $charset = 'utf8mb4';
-    $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+    $dsn = "mysql:host=$host;dbname=$db;charset=$charset";*/
+
+    $host = 'boohothfvq7zrleynm2d-mysql.services.clever-cloud.com';
+    $db = 'boohothfvq7zrleynm2d';
+    $user = 'ule1ljucrogbxrye';
+    $pass = 'kYcex0mrjJdZNouDTZAl';
+    $charset = 'utf8mb4';
 
     try{
         $pdo = new PDO($dsn, $user, $pass,);
